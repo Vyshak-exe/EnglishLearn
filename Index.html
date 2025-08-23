@@ -1,0 +1,672 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EnglishLearn | Interactive English Learning for Kids</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fredoka+One&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+        <i class="fas fa-book-open me-2"></i>
+        <span class="hero-font">EnglishLearn</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0"><a href="#pricing" class="btn btn-light">Get Started</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Carousel -->
+  <header class="hero d-flex align-items-center text-light">
+    <div id="heroCarousel" class="hero-carousel carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Kids learning English" loading="lazy">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Happy children" loading="lazy">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Learning materials" loading="lazy">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <div class="container hero-content text-center">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h1 class="display-3 fw-bold hero-font mb-4">Unlock Your Child's English Potential</h1>
+          <p class="lead fs-4 mb-5">Interactive, engaging English learning platform designed for children ages 3-12. Watch them learn while having fun!</p>
+          <div class="d-flex justify-content-center gap-3">
+            <a href="#pricing" class="btn btn-warning btn-lg px-4 py-3">Start Learning Now</a>
+            <a href="#features" class="btn btn-outline-light btn-lg px-4 py-3">Explore Features</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Trust Badges -->
+  <section class="py-4 bg-light">
+    <div class="container">
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-auto text-center">
+          <p class="mb-0 fw-bold">Trusted by parents and schools worldwide:</p>
+        </div>
+        <div class="col-auto">
+          <img src="https://avatars.mds.yandex.net/i?id=62877bae348666221bc92310acbf404adda8cf77-12529777-images-thumbs&n=13" alt="Google" class="img-fluid" style="height: 40px;border-radius: 40px;" loading="lazy">
+        </div>
+        <div class="col-auto">
+          <img src="https://avatars.mds.yandex.net/i?id=b30663a1330505cf4e8d2e0d83ff326c1b644ed3-5277757-images-thumbs&n=13" alt="Apple" class="img-fluid" style="height: 40px;border-radius: 40px;" loading="lazy">
+        </div>
+        <div class="col-auto">
+          <img src="https://avatars.mds.yandex.net/i?id=23af420ba2ab2b3f57a773e8bd29f7ac671cfb6c-16307300-images-thumbs&n=13" alt="Microsoft" class="img-fluid" style="height: 40px;border-radius: 40px;" loading="lazy">
+        </div>
+        <div class="col-auto">
+          <img src="https://avatars.mds.yandex.net/i?id=30ed55d70ce9ab6f8a1b4a218e8335f5fbd9fc3f-9859478-images-thumbs&n=13" alt="UNICEF" class="img-fluid" style="height: 40px;border-radius: 40px;" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold hero-font">Why Choose EnglishLearn?</h2>
+        <p class="lead text-muted">Our award-winning platform makes English learning fun and effective</p>
+      </div>
+      
+      <div class="row g-4 align-items-center mb-5">
+        <div class="col-lg-6">
+          <img src="Dashboard3.png" alt="App Interface" class="img-fluid app-screenshot floating-img" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <div class="d-flex mb-4">
+            <div class="feature-icon bg-primary bg-opacity-10 text-primary me-3">
+              <i class="fas fa-spell-check"></i>
+            </div>
+            <div>
+              <h4>Comprehensive Alphabet Learning</h4>
+              <p class="text-muted">Interactive A-Z lessons with phonics, tracing exercises, and engaging animations to build strong foundational skills.</p>
+            </div>
+          </div>
+          
+          <div class="d-flex mb-4">
+            <div class="feature-icon bg-success bg-opacity-10 text-success me-3">
+              <i class="fas fa-volume-high"></i>
+            </div>
+            <div>
+              <h4>Phonics Mastery</h4>
+              <p class="text-muted">Develop perfect pronunciation with our speech recognition technology and native speaker audio examples.</p>
+            </div>
+          </div>
+          
+          <div class="d-flex mb-4">
+            <div class="feature-icon bg-danger bg-opacity-10 text-danger me-3">
+              <i class="fas fa-book"></i>
+            </div>
+            <div>
+              <h4>Vocabulary Builder</h4>
+              <p class="text-muted">Learn 1000+ words through thematic categories, vivid illustrations, and contextual usage examples.</p>
+            </div>
+          </div>
+          
+          <div class="d-flex">
+            <div class="feature-icon bg-warning bg-opacity-10 text-warning me-3">
+              <i class="fas fa-gamepad"></i>
+            </div>
+            <div>
+              <h4>Gamified Learning</h4>
+              <p class="text-muted">Educational games, quizzes, and challenges that motivate children to learn while having fun.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row g-4 mt-5">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center p-4">
+              <div class="feature-icon bg-info bg-opacity-10 text-info mx-auto mb-3">
+                <i class="fas fa-user-graduate"></i>
+              </div>
+              <h4>Personalized Learning</h4>
+              <p class="text-muted">AI-powered adaptive learning path tailored to your child's pace and progress.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center p-4">
+              <div class="feature-icon bg-purple bg-opacity-10 text-purple mx-auto mb-3">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h4>Progress Tracking</h4>
+              <p class="text-muted">Detailed reports and insights for parents to monitor their child's development.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center p-4">
+              <div class="feature-icon bg-orange bg-opacity-10 text-orange mx-auto mb-3">
+                <i class="fas fa-globe"></i>
+              </div>
+              <h4>Multilingual Support</h4>
+              <p class="text-muted">Interface available in 10+ languages to help non-native English speaking families.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how-it-works" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold hero-font">How EnglishLearn Works</h2>
+        <p class="lead text-muted">Simple steps to start your child's English learning journey</p>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100 border-0 bg-transparent text-center">
+            <div class="card-body">
+              <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-3 mb-3 mx-auto" style="width: 80px; height: 80px;">
+                <i class="fas fa-user-plus fs-3"></i>
+              </div>
+              <h4>1. Create Account</h4>
+              <p class="text-muted">Sign up and set up your child's profile in minutes.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100 border-0 bg-transparent text-center">
+            <div class="card-body">
+              <div class="bg-success bg-opacity-10 text-success rounded-circle p-3 mb-3 mx-auto" style="width: 80px; height: 80px;">
+                <i class="fas fa-clipboard-check fs-3"></i>
+              </div>
+              <h4>2. Assessment</h4>
+              <p class="text-muted">Quick evaluation to determine the right starting level.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100 border-0 bg-transparent text-center">
+            <div class="card-body">
+              <div class="bg-warning bg-opacity-10 text-warning rounded-circle p-3 mb-3 mx-auto" style="width: 80px; height: 80px;">
+                <i class="fas fa-book-open fs-3"></i>
+              </div>
+              <h4>3. Start Learning</h4>
+              <p class="text-muted">Begin with fun, interactive lessons tailored to your child.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100 border-0 bg-transparent text-center">
+            <div class="card-body">
+              <div class="bg-danger bg-opacity-10 text-danger rounded-circle p-3 mb-3 mx-auto" style="width: 80px; height: 80px;">
+                <i class="fas fa-trophy fs-3"></i>
+              </div>
+              <h4>4. Track Progress</h4>
+              <p class="text-muted">Watch your child improve with regular progress reports.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold hero-font">Simple, Transparent Pricing</h2>
+        <p class="lead text-muted">Choose the perfect plan for your child's learning needs</p>
+      </div>
+      
+      <!-- Toggle -->
+      <div class="d-flex justify-content-center mb-5">
+        <div class="btn-group" role="group" aria-label="Billing toggle">
+          <input type="radio" class="btn-check" name="billing" id="monthly" autocomplete="off" checked>
+          <label class="btn btn-outline-primary" for="monthly">Monthly Billing</label>
+          
+          <input type="radio" class="btn-check" name="billing" id="yearly" autocomplete="off">
+          <label class="btn btn-outline-primary" for="yearly">Yearly Billing <span class="badge bg-success ms-2">Save 20%</span></label>
+        </div>
+      </div>
+
+      <!-- Pricing Cards -->
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="card price-card h-100">
+            <div class="card-body p-4">
+              <h5 class="card-title text-muted">Starter</h5>
+              <h2 class="my-4">
+                <span class="monthly-price">₹199</span>
+                <span class="yearly-price d-none">₹1,900</span>
+                <small class="text-muted fs-6 fw-normal">/mo</small>
+              </h2>
+              <p class="text-muted">Perfect for beginners exploring English basics</p>
+              <ul class="list-unstyled mt-4 mb-5">
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Alphabet & Phonics</li>
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 500+ Vocabulary Words</li>
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Basic Quizzes</li>
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Email Support</li>
+                <li class="mb-2 text-muted"><i class="fas fa-times me-2"></i> Progress Reports</li>
+                <li class="mb-2 text-muted"><i class="fas fa-times me-2"></i> Offline Access</li>
+              </ul>
+              <a href="#" class="btn btn-outline-primary w-100">Get Started</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 position-relative">
+          <div class="card price-card h-100 popular-plan">
+            <span class="popular-badge">Most Popular</span>
+            <div class="card-body p-4">
+              <h5 class="card-title">Premium</h5>
+              <h2 class="my-4">
+                <span class="monthly-price">₹399</span>
+                <span class="yearly-price d-none">₹3,800</span>
+                <small class="text-muted fs-6 fw-normal">/mo</small>
+              </h2>
+              <p>Comprehensive learning for steady progress</p>
+              <ul class="list-unstyled mt-4 mb-5">
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> All Starter Features</li>
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 1000+ Vocabulary Words</li>
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Advanced Quizzes</li>
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Progress Reports</li>
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Priority Support</li>
+                <li class="mb-2 text-muted"><i class="fas fa-times me-2"></i> Offline Access</li>
+              </ul>
+              <a href="#" class="btn btn-primary w-100">Choose Premium</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="card price-card h-100">
+            <div class="card-body p-4">
+              <h5 class="card-title text-muted">Family</h5>
+              <h2 class="my-4">
+                <span class="monthly-price">₹599</span>
+                <span class="yearly-price d-none">₹5,700</span>
+                <small class="text-muted fs-6 fw-normal">/mo</small>
+              </h2>
+              <p class="text-muted">Best value for families with multiple children</p>
+              <ul class="list-unstyled mt-4 mb-5">
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> All Premium Features</li>
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Up to 3 Child Profiles</li>
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Offline Access</li>
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Parental Dashboard</li>
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> 1-on-1 Support</li>
+                <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Monthly Tutor Session</li>
+              </ul>
+              <a href="#" class="btn btn-outline-primary w-100">Family Plan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-5">
+        <p class="text-muted">Not sure which plan is right? <a href="#contact" class="text-primary">Contact our team</a> for personalized advice.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold hero-font">What Parents Say</h2>
+        <p class="lead text-muted">Trusted by thousands of families worldwide</p>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center mb-3">
+                <img src="https://randomuser.me/api/portraits/women/32.jpg" class="rounded-circle me-3" width="50" alt="Parent" loading="lazy">
+                <div>
+                  <h5 class="mb-0">Priya Sharma</h5>
+                  <div class="text-warning" aria-hidden="true">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="mb-0">"My 5-year-old went from knowing just a few words to forming complete sentences in just 3 months! The games make learning so fun she doesn't even realize she's studying."</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center mb-3">
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" class="rounded-circle me-3" width="50" alt="Parent" loading="lazy">
+                <div>
+                  <h5 class="mb-0">Raj Patel</h5>
+                  <div class="text-warning" aria-hidden="true">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="mb-0">"As an NRI parent, I struggled to teach my kids English. EnglishLearn's structured approach and native pronunciation examples have been a game-changer for our family."</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center mb-3">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" class="rounded-circle me-3" width="50" alt="Parent" loading="lazy">
+                <div>
+                  <h5 class="mb-0">Ananya Gupta</h5>
+                  <div class="text-warning" aria-hidden="true">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="mb-0">"The progress reports help me understand exactly what my child is learning. I love how the app adapts to his learning pace and keeps him challenged but not frustrated."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-5">
+        <a href="#" class="btn btn-outline-primary">Read More Success Stories</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="display-5 fw-bold hero-font mb-4">Frequently Asked Questions</h2>
+          <p class="lead text-muted">Find answers to common questions about EnglishLearn</p>
+          <img src="https://via.placeholder.com/500x400?text=FAQ+Illustration" alt="FAQ" class="img-fluid mt-4 d-none d-lg-block" loading="lazy">
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item border-0 shadow-sm mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                  What age group is EnglishLearn designed for?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  EnglishLearn is perfect for children ages 3-12. Our content is divided into different levels that adapt to your child's age and current English proficiency, from complete beginners to intermediate learners.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-0 shadow-sm mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                  How much time should my child spend on the app daily?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  We recommend 15-30 minutes per day for optimal learning. The app includes progress tracking to ensure your child isn't overdoing screen time while still making consistent progress.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-0 shadow-sm mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                  Can I use EnglishLearn on multiple devices?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes! Your account can be accessed on up to 3 devices simultaneously. All progress syncs automatically across devices so your child can seamlessly switch between tablet, phone, or computer.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-0 shadow-sm mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                  Is there a free trial available?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Absolutely! We offer a 7-day free trial with full access to all Premium features. No credit card required to start the trial - you only pay if you decide to continue after the trial period.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item border-0 shadow-sm">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                  How does EnglishLearn compare to traditional English classes?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  EnglishLearn combines the best of both worlds - the structure of a curriculum with the flexibility and personalization of technology. Our gamified approach keeps children engaged far longer than traditional methods, while our AI adapts to each child's unique learning pace.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-5 bg-primary text-light">
+    <div class="container text-center">
+      <h2 class="display-5 fw-bold hero-font mb-4">Ready to Transform Your Child's English Skills?</h2>
+      <p class="lead mb-5">Join over 100,000 parents who trust EnglishLearn for their children's language development</p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="#pricing" class="btn btn-light btn-lg px-4 py-3">Start 7-Day Free Trial</a>
+        <a href="#contact" class="btn btn-outline-light btn-lg px-4 py-3">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center mb-5">
+          <h2 class="display-5 fw-bold hero-font">Get In Touch</h2>
+          <p class="lead text-muted">Have questions? Our team is here to help!</p>
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <form id="contactForm" class="card border-0 shadow-sm p-4" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <select class="form-select" id="subject">
+                <option>General Inquiry</option>
+                <option>Technical Support</option>
+                <option>Billing Question</option>
+                <option>Partnership Opportunity</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-sm h-100 p-4">
+            <h4 class="mb-4">Contact Information</h4>
+            
+            <div class="d-flex mb-4">
+              <div class="bg-primary bg-opacity-10 text-primary rounded-circle p-3 me-3 flex-shrink-0">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h5>Our Office</h5>
+                <p class="text-muted mb-0">123 Learning Street, Bangalore, India 560001</p>
+              </div>
+            </div>
+            
+            <div class="d-flex mb-4">
+              <div class="bg-success bg-opacity-10 text-success rounded-circle p-3 me-3 flex-shrink-0">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h5>Email Us</h5>
+                <p class="text-muted mb-0">support@englishlearn.com<br>sales@englishlearn.com</p>
+              </div>
+            </div>
+            
+            <div class="d-flex">
+              <div class="bg-warning bg-opacity-10 text-warning rounded-circle p-3 me-3 flex-shrink-0">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div>
+                <h5>Call Us</h5>
+                <p class="text-muted mb-0">+91 98765 43210 (Support)<br>+91 87654 32109 (Sales)</p>
+              </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <h5 class="mb-3">Follow Us</h5>
+            <div class="d-flex gap-3">
+              <a href="#" class="text-primary" aria-label="Facebook"><i class="fab fa-facebook-f fa-lg"></i></a>
+              <a href="#" class="text-info" aria-label="Twitter"><i class="fab fa-twitter fa-lg"></i></a>
+              <a href="#" class="text-danger" aria-label="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
+              <a href="#" class="text-primary" aria-label="LinkedIn"><i class="fab fa-linkedin-in fa-lg"></i></a>
+              <a href="#" class="text-success" aria-label="WhatsApp"><i class="fab fa-whatsapp fa-lg"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h3 class="hero-font mb-3">EnglishLearn</h3>
+          <p>Making English learning fun, interactive, and effective for children worldwide since 2018.</p>
+          <div class="d-flex gap-3 mt-4">
+            <a href="#" class="text-light" aria-label="App Store"><i class="fab fa-apple fa-lg"></i></a>
+            <a href="#" class="text-light" aria-label="Google Play"><i class="fab fa-google-play fa-lg"></i></a>
+            <a href="#" class="text-light" aria-label="Facebook"><i class="fab fa-facebook-f fa-lg"></i></a>
+            <a href="#" class="text-light" aria-label="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-4">
+          <h5 class="mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Home</a></li>
+            <li class="mb-2"><a href="#features" class="text-light text-decoration-none">Features</a></li>
+            <li class="mb-2"><a href="#pricing" class="text-light text-decoration-none">Pricing</a></li>
+            <li class="mb-2"><a href="#testimonials" class="text-light text-decoration-none">Testimonials</a></li>
+            <li class="mb-2"><a href="#contact" class="text-light text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-4">
+          <h5 class="mb-3">Resources</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Blog</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Learning Tips</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Parent Guides</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Webinars</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Help Center</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-4">
+          <h5 class="mb-3">Legal</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Terms of Service</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Cookie Policy</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">GDPR</a></li>
+            <li class="mb-2"><a href="#" class="text-light text-decoration-none">Refund Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <hr class="my-4">
+      <div class="d-flex justify-content-between align-items-center flex-column flex-md-row gap-3">
+        <p class="mb-0">© <span id="year"></span> EnglishLearn. All rights reserved.</p>
+        <div>
+          <a href="#" class="text-light text-decoration-none me-3">Privacy</a>
+          <a href="#" class="text-light text-decoration-none">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="Script.js"></script>
+</body>
+</html>
